@@ -1,0 +1,1 @@
+I went to an event where there were people debating violently about the use of guns. I tried talking to them but i was assaulted. As my lawyer, help me file a lawsuit. what are the steps i need to take? let's think step by step

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ask Paul a question!!!</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center">Have a problem? Ask Paul a question!!!</h1>
+
+    <!-- Display the conversation history -->
+    <div>
+      {% for prompt in conversation %}
+      <p>{{ prompt }}</p>
+      {% endfor %}
+    </div>
+
+    <form method="POST" action="/" style="text-align: center">
+      <input type="text" name="query" placeholder="Better Ask Paul" />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
